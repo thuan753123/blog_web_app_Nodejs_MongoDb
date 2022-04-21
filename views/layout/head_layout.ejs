@@ -1,0 +1,54 @@
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4870071250678001"
+    crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Share Tips Kent's Blog</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og: site_name" content="kentsharedtips.com"/>
+    <meta name=”fragment” content=”!”>
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/stylesheets/fontAwesome.css">
+    <link rel="stylesheet" href="/stylesheets/hero-slider.css">
+    <link rel="stylesheet" href="/stylesheets/owl-carousel.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <script> function Alert() { alert("Gửi yêu cầu thành công "); }</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+function whenCaptchaChecked() { 
+  jQuery('#invisibleCaptchaShortlink').removeClass('disabled').removeAttr('disabled');
+}
+function adBlockNotDetected() {
+}
+function adBlockDetected() {
+    $("#adb_detected").html("Please disable Adblock to proceed to the destination page.").css('display', 'inline-block').addClass("alert alert-danger");
+  $(".g-recaptcha").hide();
+  $(".btn-primary").hide();
+  $(".captcha-check").hide();
+  $(".text-center").hide();
+}
+if(typeof fuckAdBlock !== 'undefined' || typeof FuckAdBlock !== 'undefined') {
+    adBlockDetected();
+} else {
+    var importFAB = document.createElement('script');
+    importFAB.onload = function() {
+        fuckAdBlock.onDetected(adBlockDetected)
+        fuckAdBlock.onNotDetected(adBlockNotDetected);
+    };
+    importFAB.onerror = function() {
+        adBlockDetected();
+    };
+    importFAB.integrity = 'sha256-xjwKUY/NgkPjZZBOtOxRYtK20GaqTwUCf7WYCJ1z69w=';
+    importFAB.crossOrigin = 'anonymous';
+    importFAB.src = 'https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js';
+    document.head.appendChild(importFAB);
+}
+</script>
+
+ 

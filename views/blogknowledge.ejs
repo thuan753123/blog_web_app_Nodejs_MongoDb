@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ./layout/head_layout %>
+    </head>
+    <body>
+        <% include ./layout/nav-top %>
+            <li ><a href="/">Trang chủ</a></li>
+        
+            <li><a href="/blogIT">Blog IT</a></li>
+        
+            <li><a href="/blogtips">Thủ Thuật</a></li>
+        
+            <li class='active'><a href="/blogknowledge">Kiến Thức</a></li>
+        
+            <li><a href="/contact">Liên Hệ</a></li>
+        <% include ./layout/nav-bot %>
+        
+        <main>
+            <section class="banner banner-secondary" id="top" style="background-image: url(images/banner-image-1-1920x300.webp);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="banner-caption">
+                                <div class="line-dec"></div>
+                                <h2>Blog Kiến Thức</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="featured-places">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-xs-12">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="featured-item">
+                                        <div class="thumb">
+                                            <div class="thumb-img">
+                                                <img src="/images/imgblogknowledge/nvidia-battery-boost/battery-boost.webp" height="250" alt="">
+                                            </div>
+        
+                                            <div class="overlay-content">
+                                                <strong title="Author"><i class="fa fa-user"></i> Kent Thuận</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                <strong title="Posted on"><i class="fa fa-calendar"></i> 11/09/2021 23:30</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                <strong title="Views"><i class="fa fa-map-marker"></i></strong>
+                                            </div>
+                                        </div>
+        
+                                        <div class="down-content">
+                                            <a href="/blogknowledge/blogknowledge-batteryboost"><h4>Laptop cấu hình cao chơi game vẫn giật lag? Tại sao? Sự khống chế đến từ driver nvidia</h4></a>
+        
+                                            <p>Nhiều anh em hay bảo rằng việc trải nghiệm game bị ảnh hưởng mà không hiểu nguyên do dù máy mới mua. Cụ thể là tình trạng lâu lâu dựt lag rồi lại mượt trở lại. Từ game trung bình cho đến một số game AAA. Dù cấu hình gaming và sở hữu card đồ họa <strong>GTX 1650</strong> trở lên.  </p>
+        
+                                            <div class="text-button">
+                                                <a href="/blogknowledge/blogknowledge-batteryboost">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                
+        
+                                
+        
+                                
+        
+                                
+        
+                                
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-3 col-md-4 col-xs-12">
+                            <div class="form-group">
+                                <h4>Blog Search</h4>
+                            </div>
+        
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+        
+                                    <span class="input-group-addon"><a href="#"><i class="fa fa-search"></i></a></span>
+                                </div>
+                            </div>
+        
+                            <br>
+        
+                            <div class="form-group">
+                                <h4>Các trang xem thêm</h4>
+                            </div>
+                            <div id="font-size-p">
+                                <p><a href="/blogknowledge/blogknowledge-batteryboost">Laptop cấu hình cao chơi game vẫn dựt lag? Tại sao?</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <% include ./layout/footer_layout %>
+    </body>
+</html>

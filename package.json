@@ -1,0 +1,29 @@
+{
+  "name": "blogproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-seo": "0.0.1",
+    "flexslider": "^2.7.2",
+    "fs": "0.0.1-security",
+    "helmet": "^4.6.0",
+    "http-errors": "~1.6.3",
+    "https": "^1.0.0",
+    "js-alert": "^1.0.4",
+    "mongoose": "^6.0.4",
+    "moongoose": "0.0.5",
+    "morgan": "~1.9.1",
+    "path": "^0.12.7"
+  }
+}

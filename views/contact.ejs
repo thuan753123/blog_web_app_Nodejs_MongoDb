@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ./layout/head_layout %>
+    </head>
+    <body>
+        <% include ./layout/nav-top %>
+            <li ><a href="/">Trang chủ</a></li>
+        
+            <li><a href="/blogIT">Blog IT</a></li>
+        
+            <li><a href="/blogtips">Thủ Thuật</a></li>
+        
+            <li><a href="/blogknowledge">Kiến Thức</a></li>
+        
+            <li class='active'><a href="/contact">Liên Hệ</a></li>
+        <% include ./layout/nav-bot %>
+        <section class="banner banner-secondary" id="top" style="background-image: url(images/banner-image-1-1920x300.webp);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="banner-caption">
+                            <div class="line-dec"></div>
+                            <h2>Thông tin liên Hệ</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <main>
+            <section class="popular-places">
+                <div class="container">
+                    <div class="contact-content">
+                        <div class="row">
+                            <div class="col-md-8"> 
+                                <div class="left-content">
+                                    <div class="row">
+                                        <form action="/contact" method="POST">
+                                            <div class="col-md-6">
+                                                <fieldset>
+                                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <fieldset>
+                                                    <input name="email" type="email" class="form-control" id="subject" placeholder="Your Email..." required="">
+                                                </fieldset>    
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <fieldset>
+                                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." maxlength="400" required=""></textarea>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <fieldset>
+                                                    <div class="blue-button">
+                                                        <input type="submit" onclick="Alert()" value="Gửi yêu cầu" >
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-md-4">
+                                <div class="right-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="content"> 
+                                                <p>Để dóng góp ý kiến hoặc trao đổi thêm về thông tin vui lòng liên lạc cho mình ở hai hình thức dưới đây.</p>
+                                                <ul>
+                                                    <li><span>Facebook: </span><a href="https://www.facebook.com/profile.php?id=100006629655503"><i class="fa fa-facebook"><strong> Quốc Thuận</strong></i></a></li>
+                                                    <li><span>Instagram: </span><a href="https://www.instagram.com/___kttn__/"><i class="fa fa-instagram"></i><strong> ___kttn__</strong></a></li>
+                                                    <li><span>Email:</span><a href="#">khuuquocthuan@gmail.com</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </section>
+        
+            <section class="popular-places" id="popular">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-heading">
+                                <span></span>
+                                <h2></h2>
+                            </div>
+                        </div> 
+                    </div> 
+        
+                    <div class="owl-carousel owl-theme">
+                        <div class="item popular-item">
+                            <div class="thumb">
+                                <div class="thumb-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <div class="text-content">
+                                    <h4>John Doe</h4>
+                                    <span>CEO</span>
+                                </div>
+                                <div class="plus-button">
+                                    <a href="team.html"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <% include ./layout/footer_layout %>
+    </body>
+</html>
